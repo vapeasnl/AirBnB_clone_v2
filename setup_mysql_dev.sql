@@ -33,4 +33,3 @@ cursor.execute("FLUSH PRIVILEGES")
 -- Close the cursor and database connection
 cursor.close()
 db.close()
-
