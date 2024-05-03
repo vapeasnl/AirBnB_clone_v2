@@ -20,4 +20,3 @@ def do_pack():
         return archive
     else:
         return None
-
