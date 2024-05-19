@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """Starts a Flask web application.
 """
-from flask import Flask
-from flask import render_template
+import sys
+import os
+from flask import Flask, render_template
 from models import storage
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 app = Flask(__name__)
 
